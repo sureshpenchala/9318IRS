@@ -1,16 +1,19 @@
-### Paper Title :
+## Paper Title :
  Controlled Wireless Channel using Multi-Antenna Multi-IRS Assisted Communication System: A Comprehensive Performance Analysis
----
-### Paper ID: 9318
----
-### Author’s details:
- Suresh Penchala, Shravan Kumar Bandari, Member, IEEE, V.V. Mani, Senior Member, IEEE, and Anastasios Drosopoulos, Member, IEEE,
----
-### Overview 
-##This repository contains scripts and data to reproduce the results of the paper titled, "Controlled Wireless Channel using Multi-Antenna Multi-IRS Assisted Communication System: A Comprehensive Performance Analysis". This study evaluates the performance of a multi-antenna, multi-IRS-assisted communication system in generalized η-μ fading channels under NLOS conditions. It derives theoretical expressions for BER, Ergodic Capacity, and Energy Efficiency, validated through Monte-Carlo simulations. Results show significant performance improvements with multiple IRSs, optimized placement, and additional antennas, offering enhanced reliability, capacity, and energy efficiency for future communication systems.
----
 
-### The key features of the Paper
+## Paper ID: 9318
+
+## Author’s details:
+
+ Suresh Penchala, Shravan Kumar Bandari, Member, IEEE, V.V. Mani, Senior Member, IEEE, and Anastasios Drosopoulos, Member, IEEE
+
+
+## Overview 
+
+### This repository contains scripts and data to reproduce the results of the paper titled, "Controlled Wireless Channel using Multi-Antenna Multi-IRS Assisted Communication System: A Comprehensive Performance Analysis". This study evaluates the performance of a multi-antenna, multi-IRS-assisted communication system in generalized η-μ fading channels under NLOS conditions. It derives theoretical expressions for BER, Ergodic Capacity, and Energy Efficiency, validated through Monte-Carlo simulations. Results show significant performance improvements with multiple IRSs, optimized placement, and additional antennas, offering enhanced reliability, capacity, and energy efficiency for future communication systems.
+
+
+## The key features of the Paper
 
 - **IRS-Assisted Communication**: Utilizes intelligent reflecting surfaces (IRS) with reconfigurable metamaterials to manipulate wireless propagation channels cost-effectively.
 - **Generalized Fading Analysis**: Analyzes system performance under generalized η-μ fading channels, covering Nakagami-m, Nakagami-q, and Rayleigh channels as special cases for practical scenarios.
