@@ -19,19 +19,19 @@ The core of the simulation involves iterating over:
 •	bitstotal: Simulates a number of transmitted bits for each SNR.
 Steps:
 1.	Random Bit Generation (x(mc)):
-o	Randomly generates bits and maps them to BPSK modulation (±1\pm 1±1).
+	Randomly generates bits and maps them to BPSK modulation (±1\pm 1±1).
 2.	Channel Modeling:
-o	hpx1, gpx1: Scale the channel coefficients based on distance and path loss.
-o	eta_mu_channel: (User-defined function, likely) generates channel realizations based on η-μ fading.
-o	phi: Phase correction matrix, aligning the phases of IRS-reflected signals to maximize power.
+	hpx1, gpx1: Scale the channel coefficients based on distance and path loss.
+	eta_mu_channel: (User-defined function, likely) generates channel realizations based on η-μ fading.
+	phi: Phase correction matrix, aligning the phases of IRS-reflected signals to maximize power.
 3.	Signal Transmission:
-o	C1: Composite channel matrix with IRS phase adjustments.
-o	y1: Received signal combining transmitted signal, noise, and channel effects.
+	C1: Composite channel matrix with IRS phase adjustments.
+	y1: Received signal combining transmitted signal, noise, and channel effects.
 4.	Error Detection:
-o	Determines the minimum distance between the received signal and possible transmitted signals.
-o	Tracks errors if the received bit does not match the transmitted bit.
+	Determines the minimum distance between the received signal and possible transmitted signals.
+	Tracks errors if the received bit does not match the transmitted bit.
 5.	BER Calculation:
-o	BER is calculated as the ratio of erroneous bits to total bits for each SNR.
+	BER is calculated as the ratio of erroneous bits to total bits for each SNR.
 ________________________________________
 4. Statistical Analysis
 Mean and Variance:
@@ -45,11 +45,5 @@ o	Monte Carlo simulation results (errSNR).
 o	Analytical results (Pb3).
 •	Labels, grid, and axis formatting ensure readability and professional appearance.
 ________________________________________
-Key Features:
-1.	Fading Channel Models:
-o	The η-μ model provides a realistic representation of fading channels, allowing for small-scale fading effects.
-2.	IRS:
-o	Introduces Intelligent Reflecting Surface (IRS) technology, leveraging phase shifts for signal enhancement.
-3.	Comparison of BER:
-o	Compares BER obtained from Monte Carlo simulations with closed-form analytical results, validating the accuracy of the model.
+
 

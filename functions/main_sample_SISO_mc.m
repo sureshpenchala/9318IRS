@@ -44,22 +44,6 @@ for SNRdB=SNR_range
     errSNR(ccc)=err/bitstotal;
     ccc=ccc+1;
 end
-% % %---using numerical closed form  function---%
-%%%---------eta-mu------------%%%%%%
-%%---add mathematical expressions-----%%%%
-%%%%%%%%%%%%%%%%%%%%%%
-
-
-% count=1;
-% clear Pb3;
-% for SNR=1:length(SNR_range)
-% %%%%%-----for Single IRS  case
-% fun2 = @(t) (1/pi).*((1./(1+ (2*variance_ray_2side*snr_lin(SNR))*1./ ((dsr1.^(px)).*(dru1.^(px)).*((sin(t)).^2)) )).^(0.5)).*exp(- (((mean_ray_2side).^2) *snr_lin(SNR)* 1 ./(((dsr1.^(px)).*(dru1.^(px))).*((sin(t)).^2))) ./(1+ (2*variance_ray_2side*snr_lin(SNR))*1./(((dsr1.^(px)).*(dru1.^(px))).*((sin(t)).^2)) ) ) ;
-% %%%%%----- for Double IRS case
-% % fun2 = @(t) (1/pi).*((1./(1+ (2*variance_ray_2side*snr_lin(SNR))*1./ (((dsr1.^(px)).*(dru1.^(px))+(dsr2.^(px)).*(dru2.^(px))).*((sin(t)).^2)) )).^(0.5)).*exp(- (((mean_ray_2side).^2) *snr_lin(SNR)* 1 ./((((dsr1.^(px)).*(dru1.^(px))+(dsr2.^(px)).*(dru2.^(px)))).*((sin(t)).^2))) ./(1+ (2*variance_ray_2side*snr_lin(SNR))*1./((((dsr1.^(px)).*(dru1.^(px))+(dsr2.^(px)).*(dru2.^(px)))).*((sin(t)).^2)) ) ) ;
-% Pb3(count)= integral(fun2,0,pi/2);
-% count=count+1;
-% end
 
 %%%%%%%%%%%%%%%%%%
 
