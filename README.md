@@ -26,27 +26,19 @@ This repository contains scripts and data to reproduce the results of the paper 
 
 % 1. Parameter Initialization
 
-% ---------------------
-
 - Define IRS, channel, and transceiver parameters (e.g., N=50, L=2, M=2, eta=1, mu=1, etc.).
 - Set distances (d, d1, d2, d3) and heights (h1, h2, h3, ht, hr).
 
 % 2. Channel Gain Calculation
-
-% ---------------------
 
 - Compute path losses (hpx, gpx) using distances.
 - Simulate η-μ channel gains using eta_mu_channel.m
 
 % 3. IRS Reflection Coefficients
 
-% ---------------------
-
 - Calculate phase adjustments (phi) for IRS and total combined channel gains (C).
 
 % 4. Monte Carlo Simulation
-
-% ---------------------
 
 - Generate random bits (x) and additive noise (n).
 - Transmit signals through the system and compute received signals.
@@ -54,14 +46,10 @@ This repository contains scripts and data to reproduce the results of the paper 
 
 % 5. Theoretical Analysis
 
-% ---------------------
-
 - Derive mean and variance of channel gains (mean_ray, variance_ray).
 - Compute theoretical BER using integration over fading distributions.
 
 % 5. Visualization
-
-% ---------------------
 
 -Plot simulated and theoretical BER against SNR.
 
