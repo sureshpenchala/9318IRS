@@ -51,7 +51,7 @@ This repository contains scripts and data to reproduce the results of the paper 
 
  5. Visualization
 
--Plot simulated and theoretical BER against SNR.
+- Plot simulated and theoretical BER against SNR.
 
 %-----------------------------------------------------------------
 
